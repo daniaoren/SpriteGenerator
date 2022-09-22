@@ -1,4 +1,6 @@
 ﻿using System.IO;
+using System.Drawing;
+using System;
 
 namespace SpriteGenerator
 {

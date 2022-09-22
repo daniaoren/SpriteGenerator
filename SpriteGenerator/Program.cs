@@ -26,8 +26,8 @@ namespace SpriteGenerator
 
 		public static void Main(string[] args)
 		{
-			DirectoryInfo inputDir = new DirectoryInfo("../../Reference/");
-			DirectoryInfo outputDir = new DirectoryInfo("../../Dudes/");
+			DirectoryInfo inputDir = new DirectoryInfo("..\\..\\Reference\\");
+			DirectoryInfo outputDir = new DirectoryInfo("..\\..\\Dudes\\");
 			FileInfo paletteFile = new FileInfo(Path.Combine(inputDir.FullName, "colors.png"));
 
 			int padding = 3;
